@@ -17,6 +17,7 @@ Array Formats, Integration Times, and Coadds
 
 
 ###Notes on measuring max. coadds on clio1.lco.cl, 2018/04/28, Alycia Weinberger:
+
 | File | # coadds | counts per coadd if all frames were readout |
 |:---:|:--------:|:------------------------------------------:|
 | 2 | 36 | 7066.8 |
