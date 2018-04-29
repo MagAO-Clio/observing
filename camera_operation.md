@@ -1,12 +1,12 @@
-----
-title = Camera Operation
-----
+Camera Operation
+================
 
 
-Array Formats on clio1.lco.cl
-=============================
+Array Formats, Integration Times, and Coadds
+--------------------------------------------
 
-* clio1.lco.cl is the computer used to control Clio from 2012--2018
+* Array Formats on clio1.lco.cl
+  * clio1.lco.cl is the computer used to control Clio from 2012--2018
 
 |    Format    |    Array Size    |    Minimum Int. Time (ms) (Also Readout Time)    |    Max. Coadds or Cubes     |
 |--------------|------------------|--------------------------------------------------|-----------------------------|
@@ -17,10 +17,8 @@ Array Formats on clio1.lco.cl
 
 
 
-Array Formats on clio2.lco.cl
-=============================
-
-* clio2.lco.cl is the computer used to control Clio from 2018--?
+* Array Formats on clio2.lco.cl
+  * clio2.lco.cl is the computer used to control Clio from 2018--?
 
 |    Format    |    Array Size    |    Minimum Int. Time (ms) (Also Readout Time)    |    Max. Coadds or Cubes     |
 |--------------|------------------|--------------------------------------------------|-----------------------------|
