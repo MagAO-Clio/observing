@@ -48,6 +48,8 @@ The Table explains it with an example:
 | 43 | 10 | 2-d FITS | 100 | n140406 AlphaCen 131-230 | 2:08.6 / 128.6 | 43 | 33.4 % | 0.43 |
 | 43 | 25 | 2-d FITS | 40 | n140407 AlphaCenTest 1-40 | 1:57.4 / 117.4 | 43 | 36.6 % | 1.075 |
 
+* Katie Morzinski, 2014/07/17, tested 2014/04/06-10
+
 
 ### Bit Depth
 
