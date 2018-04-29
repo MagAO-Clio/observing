@@ -1,3 +1,8 @@
+---
+title: Observing with Clio on MagAO at Magellan Clay
+---
+
+
 #User's Guides
 1. Beginning of the Night Checklist
   * How to start up Clio2
