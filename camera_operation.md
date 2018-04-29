@@ -16,7 +16,7 @@ Array Formats, Integration Times, and Coadds
 | Substamp     | 100 x 50         | 3                                                | ?                           |
 
 
-###Notes on measuring max. coadds on clio1.lco.cl, 2018/04/28, Alycia Weinberger:
+### Notes on measuring max. coadds on clio1.lco.cl, 2018/04/28, Alycia Weinberger:
 
 | File | # coadds | counts per coadd if all frames were readout |
 |:---:|:--------:|:------------------------------------------:|
@@ -24,7 +24,7 @@ Array Formats, Integration Times, and Coadds
 | 3 | 37 | 7035.8 |
 | 4 | 50 | 7009.9 |
 | 5 | 75 | 6812.5 |
-| 10 | 20 | 6985.8 |
+| 10 | 20 | 6985.5 |
 | 11 | 30 | 6987.7 |
 | 12 | 19 | 6948.5 |
 | 13 | 150 | 3412.7 |
