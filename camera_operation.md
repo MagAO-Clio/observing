@@ -24,6 +24,20 @@ The Table explains it with an example:
 | 10 | 1000 | 10 | Yes | 1 | 10 3-d FITS files, each with 10 frames in a 3-d Cube | 1024 x 512 x 10 | 100 | 1 |
 
 
+#### And here are the readout efficiency tests:
+
+(Also a quick note about taking data at a very high temporal sampling. To save computer processing speed, you may want to stop the Transfer Files program (hit the X in upper left corner of window) during the data taking. Restart it when resuming normal observations by going to Restart Clio Components -> FileBackup)
+
+##### Strip Mode Tests
+
+| Integration time [ms] | # Coadds | Cubes or 2-d FITS? | # Frames | Images ID | Total Clock Time Elapsed [min:sec] / [sec] | Total Integration [sec] | % Efficiency = 100 x Total Integration / Clock Time Elapsed | Temporal Sampling of Images [sec] |
+|:---:|:--:|:-----:|:--:|:-----------------:|:--------------:|:----:|:------:|:-----:|
+| 164 | 40 | Cubes | 15 | n140410 test 1-15 | 3:39.5 / 219.5 | 98.4 | 44.8 % | 0.164 |
+| 164 | 40 | 2-d FITS | 15 | n140410 test 16-30 | 3:33.3 / 213.3 | 98.4 | 46.1 % | 6.56 |
+| 164 | 1 | 2-d FITS | 600 | n140410 test 31-630 | 6:30.0 / 390.0 | 98.4 | 25.2 % | 0.164 |
+| 164 | 6 | Cubes | 100 | n140410 test 631-730 | 4:10.8 / 250.8 | 98.4 | 39.2 % | 0.164 |
+
+
 ### Bit Depth
 
 The electronics read out the Clio detector at a bit-depth of 16 bits per data pixel. Therefore cubes are saved as 16-bit. However, coadded images are saved as 32-bit, to avoid digital saturation.
