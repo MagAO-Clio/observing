@@ -5,11 +5,29 @@ Camera Operation
 Coadds vs. Cubes
 ----------------
 
+### Readout Efficiency Tests
+
+* 2014/07/18
+
+For the Key Project we are interested in temporal sampling of the PSF. So here we did some efficiency tests of the various combinations of Integration time, Coadds, and Cubes to see which mode to use to jointly optimize temporal sampling and efficiency. First let's explain the different options in ways to save Coadds and Cubes.
+
+#### Clio Data Sequence Options:
+Between Coadds, Nimgs, and Cubes, there are a few options for temporal sampling and resultant image size for how to take a sequence of Clio data. *If you are using Cubes, then the Coadds are not added but are saved as individual frames within a 3-dimensional data cube.* The Cube will be saved as a single .fit file and so it will have only 1 FITS header. Thus, while the temporal sampling of the data is higher, the temporal sampling of the FITS header (not listed here) is per .fit written. Also, the FITS header will state the # of Coadds only if they are added, so if you are saving in Cubes, asking for "10 coadds saved in cubes" gives you 1 coadd in 10 frames in a data cube.
+
+The Table explains it with an example:
+
+| Nimgs | Integration Time [ms] | Coadds | Cubes | What Will the FITS Header Say for # of Coadds | Result | FITS dimensions (Example for Full Frame) | Total Integration Time [sec] = Nimg x IntTime x Coadds | Temporal Sampling of Images [sec] |
+|:--:|:----:|:-:|:--:|:-:|:----------------------------:|:----------:|:--:|:-:| 
+| 10 | 1000 | 1 | No | 1 | 10 2-d FITS files, no coadds | 1024 x 512 | 10 | 1 |
+| 10 | 1000 | 10 | No | 10 | 10 2-d FITS files, each with 10 frames coadded (the total duration is 10x longer than the above line) | 1024 x 512 | 100 | 10 |
+| 10 | 1000 | 1 | Yes | 1 | 10 "3-d" FITS files, with the coadds saved in cubes except that since there is only 1 coadd, the 3rd dimension has nothing in it | 1024 x 512 x 1 | 10 | 1 |
+| 10 | 1000 | 10 | Yes | 1 | 10 3-d FITS files, each with 10 frames in a 3-d Cube | 1024 x 512 x 10 | 100 | 1 |
+
+
 ### Bit Depth
 
 The electronics read out the Clio detector at a bit-depth of 16 bits per data pixel. Therefore cubes are saved as 16-bit. However, coadded images are saved as 32-bit, to avoid digital saturation.
 
-### Readout Speed
 
 
 
