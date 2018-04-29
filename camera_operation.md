@@ -37,6 +37,17 @@ The Table explains it with an example:
 | 164 | 1 | 2-d FITS | 600 | n140410 test 31-630 | 6:30.0 / 390.0 | 98.4 | 25.2 % | 0.164 |
 | 164 | 6 | Cubes | 100 | n140410 test 631-730 | 4:10.8 / 250.8 | 98.4 | 39.2 % | 0.164 |
 
+##### Stamp Mode Tests
+
+| Integration time [ms] | # Coadds | Cubes or 2-d FITS? | # Frames | Images ID | Total Clock Time Elapsed [min:sec] / [sec] | Total Integration [sec] | % Efficiency = 100 x Total Integration / Clock Time Elapsed | Temporal Sampling of Images [sec] |
+|:----:|:--:|:--------:|:--:|:---------------------:|:--------------:|:---:|:------:|:--:|
+| 1000 | 10 | 2-d FITS | 10 | n140406 AlphaCen 1-10 | 2:14.2 / 134.2 | 100 | 74.5 % | 10 |
+| 10000 | 1 | 2-d FITS | 10 | n140406 AlphaCen 11-20 | 1:47.8 / 107.8 | 100 | 92.8 % | 10 |
+| 1000 | 1 | 2-d FITS | 100 | n140406 AlphaCen 21-120 | 2:50.0 / 170.0 | 100 | 58.8 % | 1 |
+| 43 | 100 | 2-d FITS | 10 | n140406 AlphaCen 121-130 | 1:47.4 / 107.4 | 43 | 40.0 % | 4.3 |
+| 43 | 10 | 2-d FITS | 100 | n140406 AlphaCen 131-230 | 2:08.6 / 128.6 | 43 | 33.4 % | 0.43 |
+| 43 | 25 | 2-d FITS | 40 | n140407 AlphaCenTest 1-40 | 1:57.4 / 117.4 | 43 | 36.6 % | 1.075 |
+
 
 ### Bit Depth
 
