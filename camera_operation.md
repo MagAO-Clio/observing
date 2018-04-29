@@ -2,6 +2,17 @@ Camera Operation
 ================
 
 
+Coadds vs. Cubes
+----------------
+
+### Bit Depth
+
+The electronics read out the Clio detector at a bit-depth of 16 bits per data pixel. Therefore cubes are saved as 16-bit. However, coadded images are saved as 32-bit, to avoid digital saturation.
+
+### Readout Speed
+
+
+
 Array Formats, Integration Times, and Coadds
 --------------------------------------------
 
