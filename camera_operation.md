@@ -1,3 +1,6 @@
+----
+title = Camera Operation
+----
 
 
 Array Formats on clio1.lco.cl
