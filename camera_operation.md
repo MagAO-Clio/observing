@@ -1,6 +1,6 @@
 
-Array Formats
-=============
+Array Formats on clio1.lco.cl (Computer active from 2012--2018)
+==============================
 
 |    Format    |    Array Size    |    Minimum Int. Time (ms) (Also Readout Time)    |    Max. Coadds              |
 |--------------|------------------|--------------------------------------------------|-----------------------------|
