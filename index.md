@@ -1,16 +1,16 @@
 #User's Guides
-Beginning of the Night Checklist
-How to start up Clio2
-Using Clio Cookbook
-A quick guide to taking data, once you're on sky and ready to go
-Camera Operation
-Info about the Array and Subarray sizes and Co-adds allowed
-How to run the camera through the GUI
-Observing Scripts
-How to run the camera through scripts
-PSF Stars (Switching stars quickly)
-How to take PSF stars, i.e. How to work with the AO operator and TO to reduce overheads in order to quickly acquire a PSF star (only works when the target star is a similar brightness and in a similar part of the sky)
-Spectroscopy
+1. Beginning of the Night Checklist
+  * How to start up Clio2
+2. Using Clio Cookbook
+  * A quick guide to taking data, once you're on sky and ready to go
+  * Camera Operation
+  * Info about the Array and Subarray sizes and Co-adds allowed
+  * How to run the camera through the GUI
+3. Observing Scripts
+  * How to run the camera through scripts
+4. PSF Stars (Switching stars quickly)
+  * How to take PSF stars, i.e. How to work with the AO operator and TO to reduce overheads in order to quickly acquire a PSF star (only works when the target star is a similar brightness and in a similar part of the sky)
+5. Spectroscopy
 
 
 Random note:
