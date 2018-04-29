@@ -9,7 +9,7 @@ User's Guides
   * How to start up Clio2
 2. Using Clio Cookbook
   * A quick guide to taking data, once you're on sky and ready to go
-  * [Camera Operation](../../camera_operation)
+  * [Camera Operation](camera_operation)
   * Info about the Array and Subarray sizes and Co-adds allowed
   * How to run the camera through the GUI
 3. Observing Scripts
