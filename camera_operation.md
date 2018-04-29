@@ -1,7 +1,3 @@
----
-title: Camera Operation
----
-
 
 Array Formats
 =============
