@@ -17,6 +17,7 @@ Array Formats, Integration Times, and Coadds
 
 
 ### Notes on measuring max. coadds on clio1.lco.cl, 2018/04/28, Alycia Weinberger:
+This study was motivated by a data set Alycia took last year in which she saved 100 frames in cubes, but the data looked like normal images were read-out for the first 73 frames, but the last 27 frames were all 0s. So to test the corresponding limit with coadds, she put in the blocked filter and saved darks for varying numbers of coadds. She analyzed it by checking the number of counts per coadd, which should be steady if all the frames had actually been read-out and coadded. Instead, it looks like, similar to cubes, the # of counts per coadd starts dropping after around 73 frames -- so we assume that is the limit in the memory buffer for both cubes and coadds. (We limit this analysis to clio1.lco.cl because the clio2.lco.cl computer has a different memory buffer.)
 
 | File | # coadds | counts per coadd if all frames were readout |
 |:---:|:--------:|:------------------------------------------:|
