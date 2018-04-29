@@ -3,7 +3,8 @@ title: Observing with Clio on MagAO at Magellan Clay
 ---
 
 
-#User's Guides
+User's Guides
+=============
 1. Beginning of the Night Checklist
   * How to start up Clio2
 2. Using Clio Cookbook
@@ -19,7 +20,7 @@ title: Observing with Clio on MagAO at Magellan Clay
 
 
 Random note:
-
+============
 Which file is being used to subtract the background?
 
 Check Programs/mirkwood_persist.cfg
@@ -30,19 +31,22 @@ dark_fn dark0.fit
 
 
 
-#Info
+Info
+====
 Filters Info -- List of which filters we have in the 2 wheels, also includes filter curves
 Pupil Stops
 Readout Efficiency Tests -- Also includes info about what the various combinations of Nimg, Coadds, and Cubes mean for your data taking.
 
-#Data Reduction
+Data Reduction
+==============
 Orientation (true North)
 Non-linearity/Saturation: Pixels above 27000 DN are non-linear and must be corrected. Conservatively, pixels above ~45000 should be considered saturated because they can not be corrected to high precision. (See more at Calibration Data)
 Calibration Data - Bad pixel map, astrometric calibration, linearity, flat fields, etc. Also links to raw calibration data such as Calibration Data - 2014A
 Full Frame and Sub Frame Formats - Info about Full Frame, Strip, Stamp, and Substamp Mode
 
 
-#User's Resources
+User's Resources
+================
 Magellan Weather Info
 Magellan telescopes weather station: All-inclusive weather info
 Las Campanas weather info (old page)
