@@ -1,7 +1,7 @@
 Motors
 ======
 
-Clio uses Parker OEM750 cryogenic motors. There are no encoders so we home the motors before each move, so a filter change (which moves 2 motors) takes about 2--3 minutes.
+Clio uses Parker OEM750 cryogenic stepper motors. There are no encoders so we home the motors before each move, so a filter change (which moves 2 motors) takes about 2--3 minutes.
 
 
 Motors and Wheels
