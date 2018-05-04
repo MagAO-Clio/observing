@@ -1,11 +1,11 @@
-Motors
-======
-
-Clio uses Parker OEM750 cryogenic stepper motors. There are no encoders so we home the motors before each move, so a filter change (which moves 2 motors) takes about 2--3 minutes.
-
-
 Motors and Wheels
------------------
+=================
+
+Clio uses Parker OEM750 cryogenic stepper motors. There are no encoders so we home the motors before each move, so a filter change (which moves 2 motors) takes about 1 minute.
+
+
+Wheels and Positions
+--------------------
 
 Clio has 6 motors that control the following 6 wheels:
 1. Field Stop
@@ -15,7 +15,10 @@ Clio has 6 motors that control the following 6 wheels:
 5. Camera Lens
 6. Collimator Lens
 
-What is in each wheel, in order, as of 2015--2018:
+### Contents and Positions of each wheel
+* In order:
+* As of ~2015:
+* (Still valid 2018/04/30)
 
 | 1. Field | 2. Pupil | 3. FW 1 | 4. FW 2 | 5. Camera Lens | 6. Collimator |
 |:--------:|:--------:|:-------:|:-------:|:----------:|:-------------:|
